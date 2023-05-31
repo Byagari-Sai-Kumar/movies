@@ -1,5 +1,3 @@
-GET http://localhost:9000/
-
 ###
 GET http://localhost:9000/movies/
 
@@ -14,7 +12,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:9000/movies/4/
+GET http://localhost:9000/movies/2/
 
 
 ###
@@ -34,4 +32,4 @@ DELETE  http://localhost:9000/movies/6/
 GET http://localhost:9000/directors/
 
 ###
-GET http://localhost:9000/directors/:directorId/movies/
+GET http://localhost:9000/directors/3/movies/
